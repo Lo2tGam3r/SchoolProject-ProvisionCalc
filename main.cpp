@@ -19,7 +19,6 @@ int main(){
     do{
         system("cls");
         std::cout << "Gesch""\x84""ftsf""\x84""lle:""\n";
-        std::cout << "-\x120-""-\x121-""-\x122-""-\x123-""-\x124-""-\x125-""-\x126-""-\x127-""-\x128-""-\x129-""-\x12a-""-\x12b-""-\x12c-""-\x12d-";
         //print list of business cases plus provision
         while(businessCases[counter]!=0){
             std::cout << "\n" << counter+1 << ".    " << std::right << std::setw(9) << businessCases[counter] << "       " << std::setw(6) << provision[counter] << "";
